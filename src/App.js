@@ -1,10 +1,11 @@
-
-import './App.css';
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RecipeBookAPI from './RecipeBookAPI';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Recipe Book</h1>
+    <div className="container">
+      <RecipeBookAPI/>
     </div>
   );
 }
